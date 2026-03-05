@@ -1,0 +1,35 @@
+Task 1: Secure Data Exchange – Notes
+
+This folder contains supporting materials for Task 1 of the coursework.
+
+Purpose:
+- Demonstrate understanding of encoding formats and secure data exchange in web protocols.
+
+Materials Included:
+1. Diagrams:
+   - Example: Figure3_Base64_Email_TLS_Data_Flow.png
+     Shows how Base64 encoding is used to safely transmit data via TLS.
+   - Other optional diagrams can show data flow through HTTPS, TLS, and SMTP.
+
+Key Concepts:
+- Encoding Formats:
+  - Base64: Converts binary data to text for safe transmission.
+  - ASCII: Standard character encoding for text data.
+  - Hex: Represents binary data as hexadecimal strings.
+  - URL Encoding: Encodes special characters in URLs.
+
+- Protocol Integration:
+  - HTTPS: Secure web communication using TLS.
+  - TLS: Encrypts data to protect against eavesdropping.
+  - SMTP: Email transmission protocol.
+  - REST APIs: Used for secure client-server communication.
+
+- Security Considerations:
+  - Encoding alone is NOT encryption.
+  - Helps prevent injection attacks in web applications.
+  - Must be combined with secure protocols for safety.
+
+Open diagrams to understand encoding and secure data flow.
+This notes.txt explains the supporting materials for Task 1.
+
+
