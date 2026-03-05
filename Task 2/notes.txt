@@ -1,1 +1,31 @@
+Task 2: Classroom Seating Arrangement – Notes
+
+This folder contains supporting materials for Task 2 of the coursework.
+
+Scenario: Arrange students in a single row for an exam.
+Rules:
+  1. Friends should not sit next to each other.
+  2. Students from the same city should not sit next to each other.
+
+P vs NP Analysis:
+- Checking a seating plan is easy (P problem).
+- Finding a valid seating plan is difficult (NP problem).
+- This problem is closer to NP because the number of possible arrangements grows very fast as the number of students increases.
+
+Brute-Force Approach:
+- Try all possible seating arrangements.
+- Works for a small number of students.
+- Computational time grows factorially with the number of students.
+
+Heuristic (Smart) Approach:
+- Example strategy:
+  1. Seat students with many friends first.
+  2. Separate students from the same city early.
+- Reduces computational time.
+- May not always be perfect but provides an acceptable solution.
+
+Supporting Materials:
+- No diagram is included for Task2.
+
+This notes.txt explains the supporting materials for Task 2 practical work.
 
